@@ -1,0 +1,77 @@
+@font-face {
+  font-family: LandingFont;
+  src: url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap");
+}
+body {
+  margin: 0;
+  
+  .landing_page {
+    background-color: #ff4b3a;
+    .logo {
+      width: 73px;
+      height: 73px;
+      border-radius: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      margin: 0px 0px 0px 40px;
+
+      p
+      .img {
+        width: 45px;
+      }
+    }
+    .text {
+      max-width: 275px;
+      font-family: LandingFont;
+      color: white;
+      font-weight: 800;
+      font-size: 65px;
+      margin: 10px 0px 0px 40px;
+    }
+
+    .landing_container {
+      overflow: hidden;
+     
+      .landing_img {
+        width: 100%;
+        display: flex;
+       
+        
+        .img1 {
+          width: 50%;
+          z-index: 2;
+        }
+        .img2 {
+          width: 50%;
+          justify-content: end;
+          padding-top: 100px;
+          z-index: 1;
+        }
+      }
+    }
+
+    .button_container {
+        height: 100px;
+      padding-bottom: 20px;
+      background: #ff4b3a;
+      
+     
+      .btn {
+        display: flex;
+        justify-content: center;
+      
+        button {
+          width: 100%;
+          max-width: 314px;
+          padding: 30px;
+          background-color: white;
+          color: #FF460A;
+          font-weight: 600;
+          border-radius: 50px;
+          border: none;
+        }
+      }
+    }
+  }
+}

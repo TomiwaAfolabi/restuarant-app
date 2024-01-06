@@ -1,0 +1,17 @@
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 10px;
+
+    button {
+      border-radius: 50px;
+      border: none;
+      width: 100%;
+      max-width: 314px;
+      background-color: #fa4a0c;
+      color: white;
+      padding: 20px;
+    }
+  }
